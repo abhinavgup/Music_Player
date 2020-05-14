@@ -1,4 +1,4 @@
-    var background_image=document.getElementById('back');
+var background_image=document.getElementById('back');
 
 var audio=document.querySelector('audio');
 var main_card=document.getElementById('car');
