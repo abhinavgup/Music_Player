@@ -29,21 +29,29 @@ function playpause(){
 
 if(play==true){
 
-audio.play();
+
 play_pause.src='./assets/icons/pause_icon.png'
-play=false;
 image.style.transform="scale(1.02)";
+audio.play();
+play=false;
 
 
 }
 else{
-    audio.pause();
+    
     play_pause.src='./assets/icons/play_icon.png'
-    play=true;
-    image.style.transform="scale(1)";
+     image.style.transform="scale(1)";
+     audio.pause();
+     play=true;
 }
 
 }
+
+audio.addEventListener('ended', function(){
+    nexsong();
+});
+
+
 
 songIndex=0;
 
