@@ -46,10 +46,10 @@ else{
 }
 
 }
-audio=document.querySelector('audio');
-audio.addEventListener('ended', function(){
-    nexsong();
-});
+// audio=document.querySelector('audio');
+// audio.addEventListener('ended', function(){
+//     nexsong();
+// });
 
 
 
