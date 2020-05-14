@@ -14,7 +14,7 @@ var progressbar=document.getElementById('slider');
 
 
 var songs=['./assets/music/Tum_Hi.mp3','./assets/music/Numb.mp3','./assets/music/Duniya.mp3','./assets/music/Tera_ban.mp3','./assets/music/Galliyan.mp3'];
-var images=['./assets/images/ashiqui.jpg','./assets/images/linkinpark.jpg','./assets/images/duniya.jpg','./assets/images/kabir singh.jpg','./assets/images/galiya.jpg'];
+var images=['./assets/images/ashiqui.jpg','./assets/images/linkinpark.jpg','./assets/images/duniya.jpg','./assets/images/kabir.jpg','./assets/images/galiya.jpg'];
 var artists=['Arijit Singh','Linkin park','Akhil','Tulsi Kumar','Ankit Tiwari'];
 var playlist=['Tum Hi Ho','Numb','Duniya','Tera Ban Jaunga','Galiyan'];
 
