@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src='music.js'></script>
+
+
+</head>
+
+
+<body>
+
+<img src='./assets/images/ashiqui.jpg' id='back'>
+<audio src='./assets/music/Tum_Hi.mp3' id='audio'></audio>
+
+<div class="container">
+    <div id='car' class="card" class="rounded">
+        <img src='./assets/images/ashiqui.jpg'  id='img' class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 id='fi'class="card-title">Arijit Singh</h5>
+          <h5 id ='se' class="card-title">Tum Hi Ho </h5>
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          
+<img src='./assets/icons/play_icon.png'id='play' onclick="playpause()">
+<img src='./assets/icons/forward_icon.png' id='forward' onclick="nextsong()">
+<img src='./assets/icons/backward_icon.png' id='backward' onclick="previoussong()">
+
+         <input type='range' id='slider' min="0" max="" value="0" onchange="change()">
+        <div class="initial-time"></div>
+        <div class="final-time"></div>
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
