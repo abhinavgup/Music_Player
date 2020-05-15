@@ -87,8 +87,9 @@ if(songIndex>0){
     main_card.style.position='relative';
     // main_card.style.top='-770px';
 }
-playpause();
 play=true;  
+playpause();
+
 
 }
 
@@ -122,9 +123,9 @@ function previoussong(){
     song1.innerHTML=playlist[songIndex];
     background_image.src=images[songIndex];
     
-   
+    play=true; 
     playpause();
-    play=true;  
+     
 
 }
 
